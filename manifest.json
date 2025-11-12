@@ -1,0 +1,15 @@
+{
+  "name": "Design Preview",
+  "short_name": "Design",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071026",
+  "theme_color": "#0f1724",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

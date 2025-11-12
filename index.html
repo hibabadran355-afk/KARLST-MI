@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Design Preview</title>
+  <meta name="description" content="Static site scaffold generated from DESIGN.png — responsive layout, accessible and ready to deploy to GitHub Pages or other static hosts." />
+  <meta name="theme-color" content="#0f1724" />
+  <meta property="og:title" content="Design Preview" />
+  <meta property="og:description" content="Static site scaffold generated from DESIGN.png — responsive layout, accessible and ready to deploy." />
+  <meta property="og:image" content="/DESIGN.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Inter used as a close match; supply a font file/name if you want the exact typeface -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#maincontent">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">My Brand</a>
+        <nav id="mainNav" class="main-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+      </div>
+    </header>
+
+  <main id="maincontent">
+      <section class="hero">
+        <div class="hero-inner container">
+          <div class="hero-content">
+            <h1>Design-based static site</h1>
+            <p class="lead">This page is a responsive HTML/CSS scaffold created to match the provided DESIGN.png. Replace text and images to finish the build.</p>
+            <a class="btn primary" href="#">Get started</a>
+          </div>
+          <figure class="hero-image hero-figure">
+            <!-- Using the provided design image exactly as provided. -->
+            <img src="./DESIGN.png" alt="Design preview (original image)" />
+            <figcaption class="caption">Original image — <a href="/DESIGN.png" target="_blank" rel="noopener">open / download</a></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="features container">
+        <article class="card">
+          <h3>Feature One</h3>
+          <p>Short description of the first feature.</p>
+        </article>
+        <article class="card">
+          <h3>Feature Two</h3>
+          <p>Short description of the second feature.</p>
+        </article>
+        <article class="card">
+          <h3>Feature Three</h3>
+          <p>Short description of the third feature.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> My Brand — Built from DESIGN.png</p>
+      </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
